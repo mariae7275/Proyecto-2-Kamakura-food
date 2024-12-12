@@ -4,10 +4,10 @@ import {filters} from "../assets/data/data.js"
 function addFilter () {
     const filtersContainer = document.querySelector(".filters-container")
     filtersContainer.innerHTML = "";
-    filters.map(el => {
+    filters.forEach(el => {
         const buttonFilter = document.createElement("button");
         buttonFilter.textContent = el;
-        filtersContainer.appendChild(botonFilter);
+        filtersContainer.appendChild(buttonFilter);
         buttonFilter.classList.add("filter");
     })
 }
