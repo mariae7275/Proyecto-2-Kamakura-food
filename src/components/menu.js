@@ -1,5 +1,5 @@
 //DEBE imprimir en pantalla la información de filtros.
-import {filters, products} from "../assets/data/data.js"
+import {filters, products} from "../data/data.js"
 
  function addFilter () {
     const filtersContainer = document.querySelector(".filters-container")
